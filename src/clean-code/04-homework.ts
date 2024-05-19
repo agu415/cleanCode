@@ -23,13 +23,13 @@
             red: ["manzana","fresa","tomate"],
             yellow:["piña","banana"],
             purple:["uvas","moras"],
-        }
+        };
 
-        if(fruits[color]) return fruits[color]        
-        // if ( color === 'red' )  return ['manzana','fresa'];
-        // if ( color === 'yellow')  return ['piña','banana'];
-        // if ( color === 'purple')    return ['moras','uvas']
-    throw Error('the color must be: red, yellow, purple');
+        if (fruits[color]) {
+            return fruits[color];
+        }
+        
+        throw new Error('The color must be one of the following: red, yellow, purple');
     }
 
     // Simplificar esta función
