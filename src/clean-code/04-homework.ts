@@ -26,9 +26,8 @@
         };
 
         if (fruits[color]) {
-            return fruits[color];
+            return fruits[color].join(", ");
         }
-        
         throw new Error('The color must be one of the following: red, yellow, purple');
     }
 
