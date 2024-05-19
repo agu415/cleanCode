@@ -1,14 +1,14 @@
 {
-  "name": "cleancode",
-  "version": "1.0.0",
-  "description": "Curso de clean code y principios solid",
-  "main": "index.js",
+  "name": "solid",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "nodemon": "^3.1.0"
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0"
   }
 }
